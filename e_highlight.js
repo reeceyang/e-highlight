@@ -9,7 +9,7 @@ input.addEventListener("input", function() {
     out.innerHTML += line;
     oldLength = line.length;
   var text = document.getElementById("text").innerHTML;
-text.replace(/e/g, "<span style=\"text-highlight:green\"\">e</span>");
+text.replace(/e/g, "<span style=\"background-color:#42f448\"\">e</span>");
 document.getElementById("output").innerHTML = text;
   });
 
