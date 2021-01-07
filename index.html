@@ -1,12 +1,22 @@
 <html>
   <head>
     <title>e-highlight</title>
+    <link rel="stylesheet" type="text/css" href="https://reeceyang.github.io/luce.css/luce.css" media="screen">
+    <style>
+      section {
+        margin: 5vh;
+      }
+      div {
+        margin: 0.5em;
+      }
+    </style>
   </head>
   <body>
-    <div id="text" contenteditable="true">
-    </div>
-    <p id="output"></p>
+    <section class="luce-container">
+    <div id="text" contenteditable="true"></div>
+    <hr>
+    <div id="output"></div>
     <script src="e_highlight.js"></script>
+    </section>
   </body>
 </html>
-    
