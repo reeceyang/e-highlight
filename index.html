@@ -10,16 +10,16 @@
       	width: 100%;
       }
       #output {
-	       margin-top: 1em;
+	      margin-top: 1em;
       }
     </style>
   </head>
   <body>
     <section class="luce-container">
     <br>
-    <textarea id="text" class="luce-textarea">hello there!</textarea>
+    <div id="text" class="luce-textarea" contenteditable="true">enter text here to highlight all 'e's!</div>
     <br>
-    <div id="output" class="luce-textarea">h<span style="background-color:#42f448">e</span>llo th<span style="background-color:#42f448">e</span>r<span style="background-color:#42f448">e</span>!</div>
+    <div id="output" class="luce-textarea"><span style="background-color:#42f448" >e</span>nt<span style="background-color:#42f448" >e</span>r t<span style="background-color:#42f448" >e</span>xt h<span style="background-color:#42f448" >e</span>r<span style="background-color:#42f448" >e</span> to highlight all '<span style="background-color:#42f448" >e</span>'s!</div>
     <script src="e_highlight.js"></script>
     </section>
   </body>
