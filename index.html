@@ -4,18 +4,22 @@
     <link rel="stylesheet" type="text/css" href="https://reeceyang.github.io/luce.css/luce.css" media="screen">
     <style>
       section {
-        margin: 5vh;
+        margin-top: 5em;
       }
-      div {
-        margin: 0.5em;
+      #output, #text {
+      	width: 100%;
+      }
+      #output {
+	       margin-top: 1em;
       }
     </style>
   </head>
   <body>
     <section class="luce-container">
-    <textarea id="text" class="luce-textarea"></textarea>
-    <hr>
-    <div id="output"></div>
+    <br>
+    <textarea id="text" class="luce-textarea">hello there!</textarea>
+    <br>
+    <div id="output" class="luce-textarea">h<span style="background-color:#42f448">e</span>llo th<span style="background-color:#42f448">e</span>r<span style="background-color:#42f448">e</span>!</div>
     <script src="e_highlight.js"></script>
     </section>
   </body>
